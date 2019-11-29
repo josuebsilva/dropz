@@ -21,7 +21,9 @@ Import style
 ```
 script
 ```javascript
-var dropz = new DropZ("#dropz");
+var dropz = new DropZ("#dropz", {
+    zoneText:"Drop files here or click." //optional
+});
 ```
 
 
