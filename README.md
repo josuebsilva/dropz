@@ -1,6 +1,10 @@
 # dropz
 Jquery dropzone pictures
 
+![DropZ empty](https://raw.githubusercontent.com/josuebsilva/dropz/master/images/dropz-empty.png)
+
+![DropZ empty](https://raw.githubusercontent.com/josuebsilva/dropz/master/images/dropz-images.png)
+
 Example
 
     <div class="dropz" id="dropz">
@@ -15,3 +19,6 @@ Example
     
     script
     var dropz = new DropZ("#dropz");
+ 
+
+
