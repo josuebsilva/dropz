@@ -1,0 +1,65 @@
+ 
+.dropz {
+    background: white;
+    border-radius: 5px;
+    border: 1px dashed rgb(183, 188, 192);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dropz  input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.dropz p{
+    text-align: center;
+    padding-top: 18%;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.drop-img {
+    width: 30%;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    height: 90px;
+    margin: 5px;
+    overflow: hidden;
+    border: solid 1px #ccc;
+}
+
+.drop-img .p-remove{
+    position: absolute;
+    color: #fff;
+    right: 0;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: #ec2d38;
+}
+.drop-img .p-remove:hover{
+    cursor: pointer;
+    background: #d52b35;
+}
+.drop-img img{
+    width: 100%;
+    min-height: 100%;
+}
