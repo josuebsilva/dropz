@@ -1,17 +1,27 @@
 # dropz
 Jquery dropzone pictures
 
-Example
+![DropZ empty](https://raw.githubusercontent.com/josuebsilva/dropz/master/images/dropz-empty.png)
 
-    <div class="dropz" id="dropz">
-        <input name="file" type="file" multiple />
-    </div>
-    
-    Import script 
-    <script src="{{ asset('js/dropz.js') }}"></script>
-    
-    Import style
-    <link rel="stylesheet" href="{{ asset('css/dropz.css') }}">
-    
-    script
-    var dropz = new DropZ("#dropz");
+![DropZ empty](https://raw.githubusercontent.com/josuebsilva/dropz/master/images/dropz-images.png)
+
+Example
+```html
+<div class="dropz" id="dropz">
+    <input name="file" type="file" multiple />
+</div>
+```
+ Import script
+```javascript
+<script src="js/dropz.js"></script>
+```
+Import style
+```html
+<link rel="stylesheet" href="css/dropz.css">
+```
+script
+```javascript
+var dropz = new DropZ("#dropz");
+```
+
+
