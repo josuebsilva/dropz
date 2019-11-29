@@ -1,4 +1,4 @@
-# dropz
+# DropZ
 Jquery dropzone pictures
 
 ![DropZ empty](https://raw.githubusercontent.com/josuebsilva/dropz/master/images/dropz-empty.png)
