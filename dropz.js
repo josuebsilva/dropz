@@ -54,7 +54,7 @@ var DropZ = function(id){
 
         dropImg.append(remove);
         dropImg.append(img);
-        $(id).append(dropImg); // Assuming that "preview" is the div output where the content will be displayed.
+        $(id).append(dropImg);
         
         const reader = new FileReader();
         reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
@@ -74,5 +74,4 @@ var DropZ = function(id){
 
     return this;
   }
-  return null;
 };
