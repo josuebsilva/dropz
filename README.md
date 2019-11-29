@@ -27,3 +27,4 @@ var dropz = new DropZ("#dropz", {
 ```
 
 
+# MIT License
